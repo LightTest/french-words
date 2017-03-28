@@ -1,0 +1,240 @@
+
+.main-container {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	-webkit-perspective: 500;
+
+}
+
+.card {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	transform-style: preserve-3d;
+
+	-webkit-transform-style: preserve-3d;
+
+	transition-property: transform;
+	transition-duration: 200ms;
+	transition-delay: 0s;
+	transition-timing-function: linear;
+
+	-webkit-transition-propert: -webkit-transform;
+	-webkit-transition-duration: 200ms;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-timing-function: linear;
+	
+}
+
+.front, .back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid red;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bold;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	
+
+}
+
+.front {
+ 	background-image: url(wanna.jpg);
+	
+	border: 12px solid rgba(23,23,23,0.5);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: center;
+	background-color: pink;
+}
+
+
+.back {
+	-webkit-transform: rotatey(180deg);
+	
+}
+
+.main-container:hover .card {
+	-webkit-transform: rotatey(-180deg);
+}
+
+.front p:nth-child(1) {
+	margin-top: 0;
+	letter-spacing: 0.1rem;
+	color: red;
+}
+
+.front p:nth-child(2) {
+	color: red;
+	letter-spacing: 0.1rem;
+	margin-top: 90px;
+}
+
+/* obrazki */
+
+#mydlo {
+background-image: url(mydlo2.jpg);
+}
+
+#kran {
+background-image: url(kran.jpg);
+}
+
+#papier {
+background-image: url(papier.jpg);
+}
+
+#szdzebow {
+background-image: url(szczotka-do-zebow.jpg);
+}
+
+#woda {
+background-image: url(woda.jpg);
+}
+
+#toaleta {
+background-image: url(toaleta.jpg);
+}
+
+#gabka {
+background-image: url(gabka.jpg);
+}
+
+#zlew {
+background-image: url(zlew.jpg);
+}
+
+#prysznic {
+background-image: url(prysznic.jpg);
+}
+
+#recznik {
+background-image: url(recznik.jpg);
+}
+
+#pdzebow {
+background-image: url(pasta-do-zebow.jpg);
+}
+
+#radio {
+background-image: url(radio.jpg);
+}
+
+#poduszka {
+background-image: url(poduszka.jpg);
+}
+
+#dywan {
+background-image: url(dywan.jpg);
+}
+
+#kanapa {
+background-image: url(kanapa.jpg);
+}
+
+#salon {
+background-image: url(salon.jpg);
+}
+
+#lozko {
+background-image: url(lozko.jpg);
+}
+
+#lazienka {
+background-image: url(lazienka.jpg);
+}
+/* POKÓJ i PRZEDPOKÓJ</h2> */
+#krzeslo {
+background-image: url(krzeslo.jpg);
+}
+
+#koldra {
+background-image: url(koldra.jpg);
+}
+
+#plotno {
+background-image: url(plotno.jpg);
+}
+
+#dywanik {
+background-image: url(dywanik.jpg);
+}
+
+#szafa {
+background-image: url(szafa.png);
+}
+
+#komoda {
+background-image: url(komoda.jpg);
+}
+
+#lustro {
+background-image: url(lustro.jpg);
+}
+
+#szczotkadg {
+background-image: url(szczotkadg.jpg);
+}
+
+#lampa {
+background-image: url(lampa.jpg);
+}
+
+#szafa {
+background-image: url(szafa.png);
+}
+
+#obrazy {
+background-image: url(obrazy.jpg);
+}
+
+#szafa {
+background-image: url(szafa.png);
+}
+
+#wieszak {
+background-image: url(wieszak.jpg);
+}
+
+#telefon {
+background-image: url(telefon.jpg);
+}
+
+#schody {
+background-image: url(schody.jpg);
+}
+
+#listy {
+background-image: url(listy.jpg);
+}
+
+#stol {
+background-image: url(stol.jpg);
+}
+
+#gazeta {
+background-image: url(gazeta.jpg);
+}
+
+#kasetavideo {
+background-image: url(kasetavideo.png);
+}
+
+#kaloryfer {
+background-image: url(kaloryfer.jpg);
+}
+
+#wejscie {
+background-image: url(wejscie.jpg);
+}
+
+#pokoj {
+background-image: url(pokoj.jpg);
+}
